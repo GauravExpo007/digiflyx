@@ -1,5 +1,3 @@
-
-
 <div class="text-white w-full min-h-[600px] lg:h-auto flex flex-col lg:flex-row justify-center items-center bg-center md:bg-right"
     style="background-image: url('/assets/bg/bg-glass.webp')">
     <section class="max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col gap-5 md:gap-10 w-full lg:w-2/5 animate-slide-in-left">
@@ -47,18 +45,16 @@
         const sliderData = [{
                 id: 1,
                 link: "#",
-
                 image: "/assets/our-services/digital-marketing.png",
                 title: "Digital Marketing",
             },
-
             {
                 id: 2,
                 link: "#",
-
                 image: "/assets/our-services/web-design.png",
                 title: "Web Design",
-            }, {
+            },
+            {
                 id: 3,
                 link: "#",
                 image: "/assets/our-services/social-media.png",
@@ -76,7 +72,6 @@
                 image: "/assets/our-services/app-development.svg",
                 title: "App Development",
             },
-
         ];
 
         const slider = document.querySelector(".slider");

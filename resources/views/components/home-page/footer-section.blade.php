@@ -28,20 +28,21 @@
                     <a href="tel:+17026050607" class="hover:text-[#ababcc]">+1(702) 605-0607</a>
                 </li>
                 <li class="flex gap-3 pt-5 mx-auto lg:mx-0">
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.facebook.com/digitalfyx" target="_blank" rel="noopener noreferrer">
                         <i
                             class="fa-brands fa-facebook rounded-full border-2 border-[#54547A] p-3 bg-[#54547A] hover:bg-white hover:text-[#54547A] duration-300"></i>
                     </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://x.com/i/flow/login?redirect_after_login=%2FDigital_fyx%2F" target="_blank"
+                        rel="noopener noreferrer">
                         <i
                             class="fa-brands fa-twitter rounded-full border-2 border-[#54547A] p-3 bg-[#54547A] hover:bg-white hover:text-[#54547A] duration-300"></i>
                     </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/digi_talfyx/" target="_blank" rel="noopener noreferrer">
                         <i
                             class="fa-brands fa-instagram rounded-full border-2 border-[#54547A] p-3 bg-[#54547A] hover:bg-white hover:text-[#54547A] duration-300"></i>
                     </a>
 
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/company/digitalfyxx" target="_blank" rel="noopener noreferrer">
                         <i
                             class="fa-brands fa-linkedin rounded-full border-2 border-[#54547A] p-3 bg-[#54547A] hover:bg-white hover:text-[#54547A] duration-300"></i>
                     </a>
