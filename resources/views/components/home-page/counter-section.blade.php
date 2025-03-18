@@ -9,7 +9,7 @@
             </div>
             <div class="flex flex-col justify-center text-center">
                 <div class="flex justify-center items-center py-3">
-                    <div class="counter  md:text-3xl text-2xl font-bold font-sans" data-target="15">
+                    <div class="counter  md:text-3xl text-2xl font-bold font-sans" data-target="10">
                     </div>
                     <span class="md:text-3xl text-2xl  font-bold">+</span>
                 </div>
@@ -26,7 +26,7 @@
             </div>
             <div class="flex flex-col justify-center text-center">
                 <div class="flex justify-center items-center py-3">
-                    <div class="counter  md:text-3xl text-2xl font-bold font-sans" data-target="80">
+                    <div class="counter  md:text-3xl text-2xl font-bold font-sans" data-target="30">
                     </div>
                     <span class="md:text-3xl text-2xl  font-bold">+</span>
                 </div>
@@ -63,7 +63,7 @@
             </div>
             <div class="flex flex-col justify-center text-center">
                 <div class="flex justify-center items-center py-3">
-                    <div class="counter  md:text-3xl text-2xl font-bold font-sans" data-target="48000">
+                    <div class="counter  md:text-3xl text-2xl font-bold font-sans" data-target="1000">
                     </div>
                     <span class="md:text-3xl text-2xl  font-bold">+</span>
                 </div>
@@ -96,9 +96,10 @@
                 <img src="{{ asset('assets/services/customer-service.svg') }}" alt="team" class="h-20  md:h-16" />
             </div>
             <div class="flex flex-col justify-center text-center">
-                <div class="flex justify-center items-center py-3">
-                    <div class="counter  md:text-3xl text-2xl font-bold font-sans" data-target="24/7">
+                <div class="flex flex-col justify-center items-center py-3 pb-0">
+                    <div class="counter  md:text-3xl text-2xl font-bold font-sans" data-target="9AM / 5PM">
                     </div>
+                    <span class="text-sm md:text-base ">(Mon-Fri)</span>
                     {{-- <span class="md:text-3xl text-xl  font-bold">+</span> --}}
                 </div>
                 <span class="text-base md:text-lg ">Support Available</span>

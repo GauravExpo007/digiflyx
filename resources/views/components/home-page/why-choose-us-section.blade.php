@@ -84,7 +84,7 @@
             <h3 class="font-semibold text-2xl md:text-3xl lg:text-4xl mx-auto drop-shadow-lg text-center">
                 Let's Start a <span class="text-[#E91E63] animate-pulse"> New Project</span> Together
             </h3>
-            <a href="#"
+            <a href="{{ route('contact-us') }}"
                 class="bg-gradient-to-r from-[#B454E2] via-[#E4715B] to-[#B454E2] bg-[length:200%_auto] hover:bg-[position:right_center] text-white text-center transition-all duration-700 ease-in-out rounded-lg px-5 py-2 text-base md:text-lg shadow-lg hover:shadow-2xl w-fit">
                 Request A Quote
             </a>

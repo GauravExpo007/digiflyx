@@ -8,7 +8,7 @@
             Your <span class="text-[#E91E63] animate-pulse">Requirements</span>
         </h2>
         <div class=" animate-slide-in-left">
-            <a href="#"
+            <a href="{{ route('contact-us') }}"
                 class="hover:bg-gradient-to-r from-[#B454E2] via-[#E4715B] to-[#B454E2] bg-[length:200%_auto] hover:bg-[position:right_center] text-[#54547a] hover:text-white text-center transition-all duration-700 ease-in-out rounded-4xl px-5 py-4 text-base md:text-lg shadow-lg hover:shadow-2xl w-fit border-2 border-[#6A6A8E] font-semibold">
                 Estimate Project >
             </a>

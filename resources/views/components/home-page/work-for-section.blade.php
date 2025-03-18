@@ -15,7 +15,7 @@
             <p>Our digital marketing experts have specialized knowledge and skills in areas such as SEO, social media
                 marketing, content marketing, and paid advertising, enabling us to develop effective strategies that
                 align with your business goals.</p><br />
-            <a href="#"
+            <a href="{{ route('contact-us') }}"
                 class="bg-gradient-to-r from-[#B454E2] via-[#E4715B] to-[#B454E2] bg-[length:200%_auto] hover:bg-[position:right_center] text-white text-center transition-all duration-700 ease-in-out rounded-lg px-5 py-2 text-base md:text-lg shadow-lg hover:shadow-2xl w-fit">
                 Let's Talk
             </a>

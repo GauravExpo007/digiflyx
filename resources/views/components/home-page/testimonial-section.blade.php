@@ -2,9 +2,12 @@
     <div class="container mx-auto px-6 text-center">
         <h3
             class="bg-gradient-to-r from-[#340446] to-[#f31054] bg-clip-text text-transparent text-lg md:text-xl uppercase">
-            What Our Clients Say About Us</h3>
-        <h2 class="text-2xl md:text-3xl xl:text-4xl font-bold text-gray-900 mt-2">Over 1200+ <span
-                class="text-[#E91E63] animate-pulse">Satisfied</span> Clients and Growing</h2>
+            What Our Clients Say About Us
+        </h3>
+
+        <h2 class="text-2xl md:text-3xl xl:text-4xl font-bold text-gray-900 mt-2">Over 1200+ 
+            <span class="text-[#E91E63] animate-pulse">Satisfied</span> Clients and Growing
+            </h2>
 
         <div class="flex flex-col lg:flex-row items-center justify-center mt-10 gap-8">
             <div class="flex flex-col md:flex-row gap-6 animate-slide-in-left">
@@ -14,13 +17,12 @@
                             class="w-full h-full object-cover">
                         <div
                             class="absolute inset-0 opacity-50 hover:opacity-85 bg-black flex items-center justify-center group-hover:bg-opacity-70 transition">
-
                             <i class="fa fa-play-circle text-4xl text-white bg-red-600 rounded-full"></i>
-
                         </div>
                         <p
                             class="absolute bottom-2 left-0 right-0 text-white text-center font-semibold bg-opacity-75 py-2">
-                            Cina Cleaves</p>
+                            Cina Cleaves
+                        </p>
                     </a>
                 </div>
 
@@ -32,21 +34,23 @@
                             class="absolute inset-0 opacity-50 hover:opacity-85 bg-black flex items-center justify-center group-hover:bg-opacity-70 transition">
 
                             <i class="fa fa-play-circle text-4xl text-white bg-red-600 rounded-full"></i>
-
                         </div>
                         <p
                             class="absolute bottom-2 left-0 right-0 text-white text-center font-semibold bg-opacity-75 py-2">
-                            Jokvch Marlin</p>
+                            Jokvch Marlin
+                        </p>
                     </a>
                 </div>
             </div>
 
             <div class="relative w-full max-w-lg mx-auto overflow-hidden animate-slide-in-right">
+
                 <div id="slider" class="flex transition-transform duration-500 ease-in-out">
                     <div class="bg-white p-6 rounded-lg shadow-lg w-full flex-shrink-0">
-                        <p class="text-gray-700 italic text-left">"Lorem Ipsum has been the industry's standard dummy
-                            text ever
-                            since the 1500s..."</p>
+                        <p class="text-gray-700 italic text-left">
+                            "Lorem Ipsum has been the industry's standard dummy text ever
+                            since the 1500s..."
+                        </p>
                         <div class="flex items-center mt-4">
                             <img src="{{ asset('assets/testimonial/client-c.webp') }}" alt="Fred Chener"
                                 class="w-12 h-12 rounded-full">
@@ -56,8 +60,10 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="bg-white p-6 rounded-lg shadow-lg w-full flex-shrink-0">
-                        <p class="text-gray-700 italic text-left">"A great experience! Their service was exceptional."
+                        <p class="text-gray-700 italic text-left">
+                            "A great experience! Their service was exceptional."
                         </p>
                         <div class="flex items-center mt-4">
                             <img src="{{ asset('assets/testimonial/client-c.webp') }}" alt="Jane Doe"
@@ -68,8 +74,11 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="bg-white p-6 rounded-lg shadow-lg w-full flex-shrink-0">
-                        <p class="text-gray-700 italic text-left">"Highly recommended. Their team is outstanding."</p>
+                        <p class="text-gray-700 italic text-left">
+                            "Highly recommended. Their team is outstanding."
+                        </p>
                         <div class="flex items-center mt-4">
                             <img src="{{ asset('assets/testimonial/client-c.webp') }}" alt="John Smith"
                                 class="w-12 h-12 rounded-full">
@@ -79,6 +88,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="bg-white p-6 rounded-lg shadow-lg w-full flex-shrink-0">
                         <p class="text-gray-700 italic text-left">"Excellent service with a professional approach."</p>
                         <div class="flex items-center mt-4">
@@ -91,12 +101,12 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="flex justify-center mt-4" id="dots"></div>
             </div>
         </div>
     </div>
 </section>
-
 
 <script>
     const slider = document.getElementById("slider");

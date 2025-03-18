@@ -62,9 +62,15 @@
 </style>
 
 <body>
+    <header>
+        <x-home-page.header-section />
+    </header>
     <main>
         {{ $slot }}
     </main>
+    <footer>
+        <x-home-page.footer-section />
+    </footer>
 
     <script>
         function handleScrollAnimation() {

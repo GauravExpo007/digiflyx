@@ -42,9 +42,7 @@
                 </p>
             </div>
 
-
             {{-- 4th-work --}}
-
 
             <div class="h-36 flex flex-col justify-between items-center p-2 hover:scale-95 duration-300 group">
                 <img src="{{ asset('assets/clients/expo-stand.png') }}" alt="expostand services" class=" h-20 " />
@@ -62,11 +60,7 @@
                 </p>
             </div>
 
-
-
-
             {{-- 6th-work --}}
-
 
             <div class="h-36 flex flex-col justify-between items-center p-2 hover:scale-95 duration-300 group">
                 <img src="{{ asset('assets/clients/xproo-service.webp') }}" alt="xproos" class=" h-20 " />
@@ -75,9 +69,7 @@
                 </p>
             </div>
 
-
             {{-- 7th-work --}}
-
 
             <div class="h-36 flex flex-col justify-between items-center p-2 hover:scale-95 duration-300 group">
                 <img src="{{ asset('assets/clients/Booth_Vision.png') }}" alt="boothvision" class=" h-20 " />
@@ -86,9 +78,7 @@
                 </p>
             </div>
 
-
             {{-- 8th-work --}}
-
 
             <div class="h-36 flex flex-col justify-between items-center p-2 hover:scale-95 duration-300 group">
                 <img src="{{ asset('assets/clients/stand-construction.png') }}" alt="stand-construction"
@@ -98,10 +88,7 @@
                 </p>
             </div>
 
-
-
             {{-- 9th-work --}}
-
 
             <div class="h-36 flex flex-col justify-between items-center p-2 hover:scale-95 duration-300 group">
                 <img src="{{ asset('assets/clients/my-india-home.png') }}" alt="my-india-home" class=" h-20 " />
@@ -110,9 +97,7 @@
                 </p>
             </div>
 
-
             {{-- 10th-work --}}
-
 
             <div class="h-36 flex flex-col justify-between items-center p-2 hover:scale-95 duration-300 group">
                 <img src="{{ asset('assets/clients/expoexhibit.png') }}" alt="expoexhibit" class=" h-20 " />
@@ -121,10 +106,7 @@
                 </p>
             </div>
 
-
-
             {{-- 11th-work --}}
-
 
             <div class="h-36 flex flex-col justify-between items-center p-2 hover:scale-95 duration-300 group">
                 <img src="{{ asset('assets/clients/nexus-gmbh-biz.gif') }}" alt="nexus" class=" h-20 " />
@@ -141,7 +123,6 @@
                     PLAN MY BOOTH
                 </p>
             </div>
-
 
         </div>
 

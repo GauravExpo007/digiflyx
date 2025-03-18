@@ -10,7 +10,7 @@
         <div class="py-5 text-lg md:text-xl lg:text-2xl w-full flex flex-col">
 
             <p>Drive Grow and Dominate the Digital Space with our Digital Marketing Expertise.</p><br />
-            <a href="#"
+            <a href="{{ route('contact-us') }}"
                 class="bg-gradient-to-r from-[#B454E2] via-[#E4715B] to-[#B454E2] bg-[length:200%_auto] hover:bg-[position:right_center] text-white text-center transition-all duration-700 ease-in-out rounded-lg px-5 py-2 text-base md:text-lg shadow-lg hover:shadow-2xl w-fit">
                 Let's Talk
             </a>

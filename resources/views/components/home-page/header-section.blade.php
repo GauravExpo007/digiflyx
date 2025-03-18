@@ -15,8 +15,6 @@
         <!-- Desktop Menu -->
         <nav class="hidden md:flex md:space-x-3 lg:space-x-6 text-lg text-white mr-10 md:mr-2">
             <a href="/" class="hover:text-gray-200"><span class="text-[#37FFF9] animate-pulse">Home</span></a>
-            <a href="#" class="hover:text-gray-200">About Us</a>
-
             <!-- Services Dropdown -->
             <div class="relative group">
 
@@ -102,11 +100,16 @@
                 </ul>
             </div>
 
+            <a href="{{ route('about-us') }}" class="hover:text-gray-200">About Us</a>
+
+
+
             <a href="#" class="hover:text-gray-200">Work</a>
-            <a href="#" class="hover:text-gray-200">Blog</a>
-            <a href="#"
-                class="bg-gradient-to-r from-[#4b1fa9] via-[#a72e15] to-[#4b1fa9] bg-[length:200%_auto] hover:bg-[position:right_center] text-white text-center transition-all duration-700 ease-in-out rounded-4xl px-3 text-base md:text-lg shadow-lg hover:shadow-2xl w-fit border-2 border-white font-semibold">
-                Request A Quote</a>
+            <a href="{{ route('blogs') }}" class="hover:text-gray-200">Blog</a>
+            <a href="{{ route('contact-us') }}"
+                class="bg-gradient-to-r from-[#4b1fa9] via-[#a72e15] to-[#4b1fa9] bg-[length:200%_auto] hover:bg-[position:right_center] text-white text-center transition-all duration-700 ease-in-out rounded-4xl px-3 text-base md:text-lg shadow-lg hover:shadow-2xl w-fit border-2 border-white font-semibold">Get
+                In Touch
+            </a>
         </nav>
     </div>
 
@@ -114,7 +117,7 @@
     <div id="mobile-menu" class="hidden md:hidden bg-black text-white p-6 h-screen overflow-y-auto">
         <ul class="flex flex-col gap-4">
             <li><a href="/" class="hover:underline">Home</a></li>
-            <li><a href="#" class="hover:underline">About Us</a></li>
+            <li><a href="{{ route('about-us') }}" class="hover:underline">About Us</a></li>
 
             <!-- Mobile Services Dropdown -->
             <li>
@@ -134,7 +137,8 @@
                             <li><a href="#" class="block px-4 py-2 hover:bg-gray-700 text-sm">PPC</a></li>
                             <li><a href="#" class="block px-4 py-2 hover:bg-gray-700 text-sm">Content Creation</a>
                             </li>
-                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-700 text-sm">Email Marketing</a>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-700 text-sm">Email
+                                    Marketing</a>
                             </li>
                         </ul>
                     </li>
@@ -192,8 +196,8 @@
             </li>
 
             <li><a href="#" class="hover:underline">Work</a></li>
-            <li><a href="#" class="hover:underline">Blog</a></li>
-            <li><a href="/get-in-touch" class="hover:underline">Get In Touch</a></li>
+            <li><a href="{{ route('blogs') }}" class="hover:underline">Blog</a></li>
+            <li><a href="{{ route('contact-us') }}" class="hover:underline">Get In Touch</a></li>
         </ul>
     </div>
 
