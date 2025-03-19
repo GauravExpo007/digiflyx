@@ -17,3 +17,12 @@ Route::get('/blogs', function () {
 Route::get('/contact-us', function () {
     return view('components.contact-us.contact');
 })->name('contact-us');
+
+Route::get('/work', function () {
+    return view('components.works.work');
+})->name('work');
+
+// services-routes 
+Route::get('/services/seo', function () {
+    return view('components.services.seo.seo');
+})->name('seo');

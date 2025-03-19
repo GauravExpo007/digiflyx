@@ -32,7 +32,8 @@
                             Digital Marketing <i class="fa fa-sort-down ml-2"></i>
                         </a>
                         <ul id="digitalMarketing" class="submenu">
-                            <li><a href="#" class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">SEO</a></li>
+                            <li><a href="{{ route('seo') }}" class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">SEO</a>
+                            </li>
                             <li><a href="#" class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">PPC</a></li>
                             <li>
                                 <a href="#" class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">Content
@@ -89,11 +90,14 @@
                         </a>
                         <ul id="otherServices" class="submenu">
                             <li><a href="#" class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">E-commerce</a></li>
-                            <li><a href="#" class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">Google
-                                    Analytics</a>
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">Google
+                                    Analytics
+                                </a>
                             </li>
                             <li><a href="#" class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">Mobile App
-                                    Development</a>
+                                    Development
+                                </a>
                             </li>
                         </ul>
                     </li>
@@ -101,10 +105,7 @@
             </div>
 
             <a href="{{ route('about-us') }}" class="hover:text-gray-200">About Us</a>
-
-
-
-            <a href="#" class="hover:text-gray-200">Work</a>
+            <a href="{{ route('work') }}" class="hover:text-gray-200">Work</a>
             <a href="{{ route('blogs') }}" class="hover:text-gray-200">Blog</a>
             <a href="{{ route('contact-us') }}"
                 class="bg-gradient-to-r from-[#4b1fa9] via-[#a72e15] to-[#4b1fa9] bg-[length:200%_auto] hover:bg-[position:right_center] text-white text-center transition-all duration-700 ease-in-out rounded-4xl px-3 text-base md:text-lg shadow-lg hover:shadow-2xl w-fit border-2 border-white font-semibold">Get
