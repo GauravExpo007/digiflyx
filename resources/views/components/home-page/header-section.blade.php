@@ -134,7 +134,8 @@
                             Digital Marketing <i class="fa fa-plus"></i>
                         </button>
                         <ul class="hidden ml-4 pl-2 border-l border-gray-600 submenu">
-                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-700 text-sm">SEO</a></li>
+                            <li><a href="{{ route('seo') }}" class="block px-4 py-2 hover:bg-gray-700 text-sm">SEO</a>
+                            </li>
                             <li><a href="#" class="block px-4 py-2 hover:bg-gray-700 text-sm">PPC</a></li>
                             <li><a href="#" class="block px-4 py-2 hover:bg-gray-700 text-sm">Content Creation</a>
                             </li>
@@ -196,7 +197,7 @@
                 </ul>
             </li>
 
-            <li><a href="#" class="hover:underline">Work</a></li>
+            <li><a href="{{ route('work') }}" class="hover:underline">Work</a></li>
             <li><a href="{{ route('blogs') }}" class="hover:underline">Blog</a></li>
             <li><a href="{{ route('contact-us') }}" class="hover:underline">Get In Touch</a></li>
         </ul>

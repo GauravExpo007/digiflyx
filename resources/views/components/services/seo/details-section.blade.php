@@ -17,7 +17,7 @@
                 increasing sales. Don’t overlook its importance in your marketing strategy.
             </p>
 
-            <p class="text-justify leading-8 text-slate-700">
+            <p class="text-justify leading-8 text-slate-700 animate-right">
                 Unlock the true potential of your online presence with our game-changing SEO solution. Leveraging
                 cutting-edge algorithms and meticulous analysis, Digitalfyx provides comprehensive optimization
                 strategies that propel your website to the top of search engine rankings. Our experts dive deep into
