@@ -1,6 +1,10 @@
-<div class="bg-gradient-to-b from-[#c9ede7] to-[#edbebe]  flex items-center min-h-screen">
-    <div class="w-full max-w-4xl p-6">
-        <h3 class=" md:w-[90%] text-3xl md:text-4xl font-semibold text-left py-5 md:py-10">
+<div class="bg-gradient-to-b from-[#c9ede7] to-[#edbebe]  flex items-center">
+    <div class="w-full max-w-4xl p-6 md:p-10 lg:p-16">
+        <h2
+            class="bg-gradient-to-r from-[#340446] to-[#f31054] bg-clip-text text-transparent text-lg md:text-xl uppercase">
+            frequently asked questions
+        </h2>
+        <h3 class=" md:w-[90%] text-3xl md:text-4xl font-semibold text-left py-5 md:pb-10">
             Examine the<span class="text-[#E91E63] animate-pulse">FAQ Section</span>
             to improve your SEO Understanding
         </h3>

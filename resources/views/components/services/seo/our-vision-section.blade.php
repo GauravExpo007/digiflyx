@@ -14,7 +14,7 @@
             <!-- Tabs -->
             <div class="flex space-x-5 border-b-2 border-gray-300 pb-2">
                 <button id="experienceTab"
-                    class="tab-button text-lg md:text-xl font-semibold text-gray-700 border-b-4 border-transparent hover:border-[#E91E63] transition-all duration-300 active">
+                    class="tab-button text-lg md:text-xl font-semibold text-gray-700 border-b-4 border-transparent hover:border-[#E91E63] transition-all duration-300 active-tab">
                     Years of Experience
                 </button>
                 <button id="seoTab"
@@ -66,6 +66,14 @@
     </div>
 </div>
 
+<style>
+    .active-tab {
+        border-bottom: 4px solid #E91E63 !important;
+        color: #E91E63 !important;
+        font-weight: bold;
+    }
+</style>
+
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         const experienceTab = document.getElementById("experienceTab");
@@ -74,13 +82,15 @@
         const seoContent = document.getElementById("seoContent");
 
         function switchTab(activeTab, inactiveTab, activeContent, inactiveContent) {
-            activeTab.classList.add("border-[#E91E63]");
-            inactiveTab.classList.remove("border-[#E91E63]");
+            // Add underline and text color to active tab
+            activeTab.classList.add("active-tab");
+            inactiveTab.classList.remove("active-tab");
 
-            // Add fade-in effect
-            inactiveContent.classList.add("opacity-0");
-            inactiveContent.classList.add("hidden");
+            // Hide inactive content
+            inactiveContent.classList.add("opacity-0", "hidden");
             activeContent.classList.remove("hidden");
+
+            // Add fade-in effect for active content
             setTimeout(() => {
                 activeContent.classList.remove("opacity-0");
                 activeContent.classList.add("opacity-100");

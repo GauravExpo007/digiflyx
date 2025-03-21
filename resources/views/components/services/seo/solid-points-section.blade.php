@@ -1,4 +1,4 @@
-<div class="max-w-6xl mx-auto flex flex-col gap-5 md:gap-10 items-center p-5 md:px-0 md:py-10 lg:py-16">
+<div class="max-w-6xl mx-auto flex flex-col gap-5 md:gap-10 items-center p-5 xl:px-0 md:py-10 lg:py-16">
     <h3 class=" md:w-[90%] text-3xl md:text-4xl font-semibold text-left">
         Some Solid Points That Make Us the <span class="text-[#E91E63] animate-pulse">Best SEO Services</span> Providers
     </h3>
