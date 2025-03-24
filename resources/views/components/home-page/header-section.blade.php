@@ -34,13 +34,16 @@
                         <ul id="digitalMarketing" class="submenu">
                             <li><a href="{{ route('seo') }}" class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">SEO</a>
                             </li>
-                            <li><a href="#" class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">PPC</a></li>
+                            <li><a href="{{ route('ppc') }}" class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">PPC</a>
+                            </li>
                             <li>
-                                <a href="#" class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">Content
+                                <a href="{{ route('content-creation') }}"
+                                    class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">Content
                                     Creation
                                 </a>
                             </li>
-                            <li><a href="#" class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">Email Marketing</a>
+                            <li><a href="{{ route('email-marketing') }}"
+                                    class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">Email Marketing</a>
                             </li>
                         </ul>
                     </li>
@@ -51,15 +54,19 @@
                             Web Design <i class="fa fa-sort-down ml-2"></i>
                         </a>
                         <ul id="webDesign" class="submenu">
-                            <li><a href="#" class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">Custom Website
+                            <li><a href="{{ route('custom-website-design') }}"
+                                    class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">Custom Website
                                     Design</a>
                             </li>
-                            <li><a href="#" class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">WordPress
+                            <li><a href="{{ route('wordpress-website-design') }}"
+                                    class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">WordPress
                                     Design</a>
                             </li>
-                            <li><a href="#" class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">Website
+                            <li><a href="{{ route('website-maintenance') }}"
+                                    class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">Website
                                     Maintenance</a></li>
-                            <li><a href="#" class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">Hosting
+                            <li><a href="{{ route('website-hosting') }}"
+                                    class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">Website Hosting
                                     Services</a>
                             </li>
                         </ul>
@@ -71,13 +78,16 @@
                             Social Media <i class="fa fa-sort-down ml-2"></i>
                         </a>
                         <ul id="socialMedia" class="submenu">
-                            <li><a href="#" class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">Social Media
+                            <li><a href="{{ route('social-media-management') }}"
+                                    class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">Social Media
                                     Management</a>
                             </li>
-                            <li><a href="#" class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">Social Media
+                            <li><a href="{{ route('social-media-advertising') }}"
+                                    class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">Social Media
                                     Advertising</a>
                             </li>
-                            <li><a href="#" class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">Brand
+                            <li><a href="{{ route('brand-management') }}"
+                                    class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">Brand
                                     Management</a>
                             </li>
                         </ul>
@@ -89,13 +99,16 @@
                             Other Services <i class="fa fa-sort-down ml-2"></i>
                         </a>
                         <ul id="otherServices" class="submenu">
-                            <li><a href="#" class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">E-commerce</a></li>
+                            <li><a href="{{ route('e-commerce') }}"
+                                    class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">E-commerce</a></li>
                             <li>
-                                <a href="#" class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">Google
+                                <a href="{{ route('analytics-service') }}"
+                                    class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">Google
                                     Analytics
                                 </a>
                             </li>
-                            <li><a href="#" class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">Mobile App
+                            <li><a href="{{ route('app-development') }}"
+                                    class="block px-4 py-2 hover:bg-[#dfc0f1] text-sm">Mobile App
                                     Development
                                 </a>
                             </li>
@@ -136,10 +149,13 @@
                         <ul class="hidden ml-4 pl-2 border-l border-gray-600 submenu">
                             <li><a href="{{ route('seo') }}" class="block px-4 py-2 hover:bg-gray-700 text-sm">SEO</a>
                             </li>
-                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-700 text-sm">PPC</a></li>
-                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-700 text-sm">Content Creation</a>
+                            <li><a href="{{ route('ppc') }}" class="block px-4 py-2 hover:bg-gray-700 text-sm">PPC</a>
                             </li>
-                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-700 text-sm">Email
+                            <li><a href="{{ route('content-creation') }}"
+                                    class="block px-4 py-2 hover:bg-gray-700 text-sm">Content Creation</a>
+                            </li>
+                            <li><a href="{{ route('email-marketing') }}"
+                                    class="block px-4 py-2 hover:bg-gray-700 text-sm">Email
                                     Marketing</a>
                             </li>
                         </ul>
@@ -152,13 +168,17 @@
                             Web Design <i class="fa fa-plus"></i>
                         </button>
                         <ul class="hidden ml-4 pl-2 border-l border-gray-600 submenu">
-                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-700 text-sm">Custom Website
+                            <li><a href="{{ route('custom-website-design') }}"
+                                    class="block px-4 py-2 hover:bg-gray-700 text-sm">Custom Website
                                     Design</a></li>
-                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-700 text-sm">WordPress
+                            <li><a href="{{ route('wordpress-website-design') }}"
+                                    class="block px-4 py-2 hover:bg-gray-700 text-sm">WordPress
                                     Design</a></li>
-                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-700 text-sm">Website
+                            <li><a href="{{ route('website-maintenance') }}"
+                                    class="block px-4 py-2 hover:bg-gray-700 text-sm">Website
                                     Maintenance</a></li>
-                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-700 text-sm">Hosting
+                            <li><a href="{{ route('website-hosting') }}"
+                                    class="block px-4 py-2 hover:bg-gray-700 text-sm">Website Hosting
                                     Services</a></li>
                         </ul>
                     </li>
@@ -170,11 +190,14 @@
                             Social Media <i class="fa fa-plus"></i>
                         </button>
                         <ul class="hidden ml-4 pl-2 border-l border-gray-600 submenu">
-                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-700 text-sm">Social Media
+                            <li><a href="{{ route('social-media-management') }}"
+                                    class="block px-4 py-2 hover:bg-gray-700 text-sm">Social Media
                                     Management</a></li>
-                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-700 text-sm">Social Media
+                            <li><a href="{{ route('social-media-advertising') }}"
+                                    class="block px-4 py-2 hover:bg-gray-700 text-sm">Social Media
                                     Advertising</a></li>
-                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-700 text-sm">Brand
+                            <li><a href="{{ route('brand-management') }}"
+                                    class="block px-4 py-2 hover:bg-gray-700 text-sm">Brand
                                     Management</a></li>
                         </ul>
                     </li>

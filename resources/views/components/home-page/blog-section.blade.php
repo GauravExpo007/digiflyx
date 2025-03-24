@@ -6,33 +6,6 @@
         <div class="flex space-x-6 overflow-x-auto scroll-smooth snap-x snap-mandatory scrollbar-hide" id="blogSlider">
             {{-- Blog-1 --}}
             <div
-                class="min-w-[300px] snap-center bg-gradient-to-r from-[#2EFDE1] to-[#75AAF8] p-4 rounded-xl shadow-lg animate-slide-in-left">
-                <img src="{{ asset('assets/blogs/Top-10-SEO-Tools.webp') }}" alt="SEO Tools 2024"
-                    class="w-full rounded-lg">
-                <h3 class="text-[15px] font-semibold mt-4 mx-auto">Top 10 SEO Tools You Need in 2024 – Ultimate List
-                </h3>
-                <p class="text-sm text-white">September 3, 2024</p>
-                <a href="#"
-                    class="text-[#E91E63] animate-pulse font-bold mt-2 inline-block hover:border-b-2 border-red-500">Read
-                    More
-                    »</a>
-            </div>
-
-            {{-- Blog-2 --}}
-            <div
-                class="min-w-[300px] snap-center bg-gradient-to-r from-[#2EFDE1] to-[#75AAF8] p-4 rounded-xl shadow-lg animate-slide-in-left">
-                <img src="{{ asset('assets/blogs/keyword-research.webp') }}" alt="Keyword Research"
-                    class="w-full rounded-lg">
-                <h3 class="text-[15px] font-semibold mt-4 mx-auto">How to Do the Best Keyword Research for Organic &
-                    Paid Campaigns</h3>
-                <p class="text-sm text-white">August 30, 2024</p>
-                <a href="#"
-                    class="text-[#E91E63] animate-pulse font-bold mt-2 inline-block hover:border-b-2 border-red-500">Read
-                    More »</a>
-            </div>
-
-            {{-- Blog-3 --}}
-            <div
                 class="min-w-[300px] snap-center bg-gradient-to-r from-[#2EFDE1] to-[#75AAF8] p-4 rounded-xl shadow-lg animate-slide-in-right">
                 <img src="{{ asset('assets/blogs/5-recent-google-updates-for-2024-300x169.webp') }}"
                     alt="Google Updates 2024" class="w-full rounded-lg">
@@ -43,7 +16,7 @@
                     More »</a>
             </div>
 
-            {{-- Blog-4 --}}
+            {{-- Blog-2 --}}
             <div
                 class="min-w-[300px] snap-center bg-gradient-to-r from-[#2EFDE1] to-[#75AAF8] p-4 rounded-xl shadow-lg animate-slide-in-right">
                 <img src="{{ asset('assets/blogs/seo-success.webp') }}" alt="SEO Tools 2024"
@@ -56,7 +29,7 @@
                     More »</a>
             </div>
 
-            {{-- Blog-5 --}}
+            {{-- Blog-3 --}}
             <div
                 class="min-w-[300px] snap-center bg-gradient-to-r from-[#2EFDE1] to-[#75AAF8] p-4 rounded-xl shadow-lg">
                 <img src="{{ asset('assets/blogs/google-analytics-300x169.webp') }}" alt="Keyword Research"
@@ -69,23 +42,45 @@
                     More »</a>
             </div>
 
-            {{-- Blog-6 --}}
+            {{-- Blog-4 --}}
             <div
                 class="min-w-[300px] snap-center bg-gradient-to-r from-[#2EFDE1] to-[#75AAF8] p-4 rounded-xl shadow-lg">
                 <img src="{{ asset('assets/blogs/search-console-300x169.webp') }}" alt="Google Updates 2024"
                     class="w-full rounded-lg">
-                <div>
-                    <h3 class="text-[15px] font-semibold mt-4 mx-auto">Configure Google Search Console in Minutes –
-                        Complete Setup Guide</h3>
-                    <p class="text-sm text-white">September 5, 2024</p>
-                    <a href="#"
-                        class="text-[#E91E63] animate-pulse font-bold mt-2 inline-block hover:border-b-2 border-red-500">Read
-                        More »</a>
-                </div>
+                <h3 class="text-[15px] font-semibold mt-4 mx-auto">Configure Google Search Console in Minutes –
+                    Complete Setup Guide</h3>
+                <p class="text-sm text-white">September 5, 2024</p>
+                <a href="#"
+                    class="text-[#E91E63] animate-pulse font-bold mt-2 inline-block hover:border-b-2 border-red-500">Read
+                    More »</a>
+            </div>
 
+            {{-- Blog-5 --}}
+            <div
+                class="min-w-[300px] snap-center bg-gradient-to-r from-[#2EFDE1] to-[#75AAF8] p-4 rounded-xl shadow-lg animate-slide-in-left">
+                <img src="{{ asset('assets/blogs/Top-10-SEO-Tools.webp') }}" alt="SEO Tools 2024"
+                    class="w-full rounded-lg">
+                <h3 class="text-[15px] font-semibold mt-4 mx-auto">Top 10 SEO Tools You Need in 2024 – Ultimate List
+                </h3>
+                <p class="text-sm text-white">September 3, 2024</p>
+                <a href="#"
+                    class="text-[#E91E63] animate-pulse font-bold mt-2 inline-block hover:border-b-2 border-red-500">Read
+                    More »</a>
+            </div>
+
+            {{-- Blog-6 --}}
+            <div
+                class="min-w-[300px] snap-center bg-gradient-to-r from-[#2EFDE1] to-[#75AAF8] p-4 rounded-xl shadow-lg animate-slide-in-left">
+                <img src="{{ asset('assets/blogs/keyword-research.webp') }}" alt="Keyword Research"
+                    class="w-full rounded-lg">
+                <h3 class="text-[15px] font-semibold mt-4 mx-auto">How to Do the Best Keyword Research for Organic &
+                    Paid Campaigns</h3>
+                <p class="text-sm text-white">August 30, 2024</p>
+                <a href="#"
+                    class="text-[#E91E63] animate-pulse font-bold mt-2 inline-block hover:border-b-2 border-red-500">Read
+                    More »</a>
             </div>
         </div>
-
         <!-- Navigation Buttons -->
         <button id="prev"
             class="absolute left-0 top-3/4 transform -translate-y-1/2 bg-gray-900 text-white p-3 rounded-full shadow-lg">

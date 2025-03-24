@@ -10,9 +10,9 @@
             </h2>
 
 
-            <h2 class="text-2xl md:text-3xl xl:text-4xl">
+            <h3 class="text-2xl md:text-3xl xl:text-4xl">
                 Unique <span class="text-[#E91E63] animate-pulse">Digital Ideas</span> for Successful Business
-            </h2>
+            </h3>
 
             <p class="text-sm md:text-base xl:text-lg">
                 Digitalfyx, a top US digital marketing agency, was founded with a relentless pursuit of online
