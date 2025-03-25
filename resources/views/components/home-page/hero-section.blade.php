@@ -1,26 +1,26 @@
 <div class="text-white w-full min-h-[600px] lg:h-auto flex flex-col lg:flex-row justify-center items-center bg-center md:bg-right"
     style="background-image: url('/assets/bg/bg-glass.webp')">
-    <section class="max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col gap-5 md:gap-10 w-full lg:w-2/5 animate-slide-in-left">
+    <section
+        class="max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col gap-5 md:gap-10 w-full lg:w-2/5 animate-slide-in-left object-center bg-no-repeat bg-fixed"
+        style="background-image: url('/assets/bg/shape-d.png'); background-attachment: fixed; background-position: center;">
         <h1
-            class="font-semibold text-2xl md:text-3xl lg:text-4xl mt-[5%] mx-auto drop-shadow-lg md:tracking-wider [text-shadow:2px_2px_#ff0000] ">
+            class="font-semibold text-2xl md:text-3xl lg:text-4xl mt-[5%] mx-auto drop-shadow-lg md:tracking-wider [text-shadow:2px_2px_#ff0000]">
             Experience Unparalleled Digital <span class="border-b-2 text-[#38FFF9]">Success</span> with
             <span class="text-[#E91E63] animate-pulse">Digitalfyx</span>
         </h1>
 
         <div class="py-5 text-lg md:text-xl lg:text-2xl w-full flex flex-col">
-
             <p>Drive Grow and Dominate the Digital Space with our Digital Marketing Expertise.</p><br />
             <a href="{{ route('contact-us') }}"
                 class="bg-gradient-to-r from-[#B454E2] via-[#E4715B] to-[#B454E2] bg-[length:200%_auto] hover:bg-[position:right_center] text-white text-center transition-all duration-700 ease-in-out rounded-lg px-5 py-2 text-base md:text-lg shadow-lg hover:shadow-2xl w-fit">
                 Let's Talk
             </a>
-
         </div>
     </section>
 
+
     <section
-        class="max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col gap-5 md:gap-10 w-full lg:w-3/5 object-center bg-no-repeat animate-slide-in-right"
-        style="background-image: url('/assets/bg/shape-d.png')">
+        class="max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col gap-5 md:gap-10 w-full lg:w-3/5 animate-slide-in-right">
         <div class="pb-10">
             <div class="flex flex-col md:flex-row justify-center items-center gap-5">
                 <a href="https://www.youtube.com/" target="_blank">
@@ -44,31 +44,31 @@
     document.addEventListener("DOMContentLoaded", () => {
         const sliderData = [{
                 id: 1,
-                link: "#",
+                link: "{{ route('digital-marketing') }}",
                 image: "/assets/our-services/digital-marketing.png",
                 title: "Digital Marketing",
             },
             {
                 id: 2,
-                link: "#",
+                link: "{{ route('web-design') }}",
                 image: "/assets/our-services/web-design.png",
                 title: "Web Design",
             },
             {
                 id: 3,
-                link: "#",
+                link: "{{ route('social-media') }}",
                 image: "/assets/our-services/social-media.png",
                 title: "Social Media",
             },
             {
                 id: 4,
-                link: "#",
+                link: "{{ route('e-commerce') }}",
                 image: "/assets/our-services/e-commerce.png",
                 title: "E-Commerce",
             },
             {
                 id: 5,
-                link: "#",
+                link: "{{ route('app-development') }}",
                 image: "/assets/our-services/app-development.svg",
                 title: "App Development",
             },

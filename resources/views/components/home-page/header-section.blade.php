@@ -28,7 +28,8 @@
 
                     <!-- Digital Marketing -->
                     <li class="relative group">
-                        <a href="#" class="flex justify-between items-center px-4 py-2 hover:bg-[#dfc0f1]">
+                        <a href="{{ route('digital-marketing') }}"
+                            class="flex justify-between items-center px-4 py-2 hover:bg-[#dfc0f1]">
                             Digital Marketing <i class="fa fa-sort-down ml-2"></i>
                         </a>
                         <ul id="digitalMarketing" class="submenu">
@@ -50,7 +51,8 @@
 
                     <!-- Web Design -->
                     <li class="relative group">
-                        <a href="#" class="flex justify-between items-center px-4 py-2 hover:bg-[#dfc0f1]">
+                        <a href="{{ route('web-design') }}"
+                            class="flex justify-between items-center px-4 py-2 hover:bg-[#dfc0f1]">
                             Web Design <i class="fa fa-sort-down ml-2"></i>
                         </a>
                         <ul id="webDesign" class="submenu">
@@ -74,7 +76,8 @@
 
                     <!-- Social Media -->
                     <li class="relative group">
-                        <a href="#" class="flex justify-between items-center px-4 py-2 hover:bg-[#dfc0f1]">
+                        <a href="{{ route('social-media') }}"
+                            class="flex justify-between items-center px-4 py-2 hover:bg-[#dfc0f1]">
                             Social Media <i class="fa fa-sort-down ml-2"></i>
                         </a>
                         <ul id="socialMedia" class="submenu">

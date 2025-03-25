@@ -55,12 +55,10 @@
         <section class="flex flex-col gap-6 items-center md:items-start">
             <h2 class="uppercase font-bold text-2xl md:text-3xl text-center md:text-left">Company</h2>
             <ul class="flex flex-col items-center md:items-start gap-4 text-slate-200 mx-auto">
-                <li><a href="#" class="hover:text-[#ababcc]">Home</a></li>
-                <li><a href="#" class="hover:text-[#ababcc]">About Us</a></li>
-                <li><a href="#" class="hover:text-[#ababcc]">What We Offer</a></li>
-
-                <li><a href="#" class="hover:text-[#ababcc]">Blogs</a></li>
-                <li><a href="#" class="hover:text-[#ababcc]">Contact Us</a></li>
+                <li><a href="/" class="hover:text-[#ababcc]">Home</a></li>
+                <li><a href="{{ route('about-us') }}" class="hover:text-[#ababcc]">About Us</a></li>
+                <li><a href="{{ route('blogs') }}" class="hover:text-[#ababcc]">Blogs</a></li>
+                <li><a href="{{ route('contact-us') }}" class="hover:text-[#ababcc]">Contact Us</a></li>
             </ul>
         </section>
 
@@ -68,10 +66,10 @@
         <section class="flex flex-col gap-6 items-center md:items-start">
             <h2 class="uppercase font-bold text-2xl md:text-3xl text-center md:text-left">Services</h2>
             <ul class="flex flex-col items-center md:items-start gap-4 text-slate-200 mx-auto">
-                <li><a href="#" class="hover:text-[#ababcc]">Digital Marketing</a></li>
-                <li><a href="#" class="hover:text-[#ababcc]">Web Design</a></li>
-                <li><a href="#" class="hover:text-[#ababcc]">Social Media</a></li>
-                <li><a href="#" class="hover:text-[#ababcc]">E-Commerce</a></li>
+                <li><a href="{{ route('digital-marketing') }}" class="hover:text-[#ababcc]">Digital Marketing</a></li>
+                <li><a href="{{ route('web-design') }}" class="hover:text-[#ababcc]">Web Design</a></li>
+                <li><a href="{{ route('social-media') }}" class="hover:text-[#ababcc]">Social Media</a></li>
+                <li><a href="{{ route('e-commerce') }}" class="hover:text-[#ababcc]">E-Commerce</a></li>
             </ul>
         </section>
 

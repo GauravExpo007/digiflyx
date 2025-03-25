@@ -29,6 +29,10 @@ Route::get('/work', function () {
 // services-routes 
 
 // digital-marketing-section
+Route::get('/digital-marketing', function () {
+    return view('components.services.digital-marketing.digital-marketing');
+})->name('digital-marketing');
+
 Route::get('/search-engine-optimization', function () {
     return view('components.services.seo.seo');
 })->name('seo');
@@ -47,6 +51,10 @@ Route::get('/email-marketing', function () {
 
 
 // web-design-section
+Route::get('/web-design', function () {
+    return view('components.services.web-design.web-design');
+})->name('web-design');
+
 Route::get('/custom-website-design', function () {
     return view('components.services.custom-website-design.custom-website-design');
 })->name('custom-website-design');
@@ -65,6 +73,10 @@ Route::get('/website-hosting', function () {
 
 
 // social-media-section
+Route::get('/social-media', function () {
+    return view('components.services.social-media.social-media');
+})->name('social-media');
+
 Route::get('/social-media-management', function () {
     return view('components.services.social-media-management.social-media-management');
 })->name('social-media-management');

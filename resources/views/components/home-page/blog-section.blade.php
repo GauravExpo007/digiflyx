@@ -11,7 +11,7 @@
                     alt="Google Updates 2024" class="w-full rounded-lg">
                 <h3 class="text-[15px] font-semibold mt-4 mx-auto">Important: 5 Recent Google Updates for 2024</h3>
                 <p class="text-sm text-white">September 17, 2024</p>
-                <a href="#"
+                <a href="{{ route('blogs-inside') }}"
                     class="text-[#E91E63] animate-pulse font-bold mt-2 inline-block hover:border-b-2 border-red-500">Read
                     More »</a>
             </div>

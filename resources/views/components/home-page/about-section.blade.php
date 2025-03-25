@@ -1,7 +1,7 @@
 <div class="relative bg-center bg-no-repeat bg-fixed" style="background-image: url('/assets/bg/tt-work-bg.webp')">
     <!-- Container for centering the text -->
     <div
-        class="bg-white flex justify-center items-center min-h-[25rem] text-justify md:text-center relative bg-opacity-5 transition-all py-5 md:py-10 lg:py-16">
+        class="bg-white flex justify-center items-center min-h-[25rem] text-start md:text-center relative bg-opacity-5 transition-all py-5 md:py-10 lg:py-16">
 
         <div class="px-5 flex flex-col gap-5 w-full md:w-[80%]">
 
