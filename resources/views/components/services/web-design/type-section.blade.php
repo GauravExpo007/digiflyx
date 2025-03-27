@@ -13,7 +13,7 @@
                 it extraordinary with our innovative web design services.
             </p>
 
-            <a
+            <a href="{{ route('contact-us') }}"
                 class="bg-gradient-to-r from-[#B454E2] via-[#E4715B] to-[#B454E2] bg-[length:200%_auto] hover:bg-[position:right_center] text-white text-center transition-all duration-700 ease-in-out rounded-lg px-5 py-2 text-base md:text-lg shadow-lg hover:shadow-2xl w-fit animate-right">
                 Get In Touch
             </a>
@@ -22,7 +22,7 @@
             <section class="grid grid-cols-1 sm:grid-cols-2 gap-5 p-3 md:p-6 justify-center items-center">
                 <!-- Type-1 -->
                 <div
-                    class="relative group overflow-hidden shadow-md hover:shadow-xl transition duration-300 hover:scale-105 h-full min-h-[180px] bg-white  rounded-tr-4xl rounded-bl-4xl">
+                    class="relative group overflow-hidden shadow-md hover:shadow-xl transition duration-300 hover:scale-105 h-full min-h-[150px] bg-white  rounded-tr-4xl rounded-bl-4xl flex flex-col justify-center items-center">
                     <div class="flex justify-between items-center p-5 ">
                         <div class="flex flex-col gap-3">
 
@@ -33,10 +33,10 @@
                             alt="custom website design" class="w-1/4 h-20 object-cover">
                     </div>
 
-                    <a href="{{ route('seo') }}"
+                    <a href="{{ route('custom-website-design') }}"
                         class="absolute inset-0 bg-black flex items-center justify-center transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 opacity-90 w-full h-full">
-                        <div class="flex flex-col gap-3 w-3/4 text-center">
-                            <h2 class="text-lg md:text-xl font-bold text-[#E91E63] animate-pulse">Custom Website Design
+                        <div class="flex flex-col w-3/4 text-center">
+                            <h2 class="text-lg font-bold text-[#E91E63] animate-pulse">Custom Website Design
                             </h2>
                             <p class="text-xs md:text-sm text-gray-300">Custom website designs allow you to achieve your
                                 unique business objectives.</p>
@@ -46,8 +46,8 @@
 
                 <!-- Type-2 -->
                 <div
-                    class="relative group overflow-hidden shadow-md hover:shadow-xl transition duration-300 hover:scale-105 h-full min-h-[180px] bg-white rounded-tr-4xl rounded-bl-4xl">
-                    <div class="flex justify-between items-center p-3">
+                    class="relative group overflow-hidden shadow-md hover:shadow-xl transition duration-300 hover:scale-105 h-full min-h-[150px] bg-white rounded-tr-4xl rounded-bl-4xl flex flex-col justify-center items-center">
+                    <div class="flex justify-between items-center p-5">
                         <div class="flex flex-col gap-3">
 
                             <h2 class="text-lg md:text-xl lg:text-2xl font-bold text-[#E91E63] animate-pulse">WordPress
@@ -58,10 +58,10 @@
                             class="w-1/4 h-20 object-cover">
                     </div>
 
-                    <a href="{{ route('ppc') }}"
+                    <a href="{{ route('wordpress-website-design') }}"
                         class="absolute inset-0 bg-black flex items-center justify-center transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 opacity-90 w-full h-full">
-                        <div class="flex flex-col gap-3 w-3/4 text-center">
-                            <h2 class="text-lg md:text-xl font-bold text-[#E91E63] animate-pulse">WordPress Website
+                        <div class="flex flex-col w-3/4 text-center">
+                            <h2 class="text-lg font-bold text-[#E91E63] animate-pulse">WordPress Website
                                 Design</h2>
                             <p class="text-xs md:text-sm text-gray-300">
                                 WordPress lets you develop a stunning website using premade
@@ -73,7 +73,7 @@
 
                 <!-- Type-3 -->
                 <div
-                    class="relative group overflow-hidden shadow-md hover:shadow-xl transition duration-300 hover:scale-105 h-full min-h-[180px] bg-white rounded-tr-4xl rounded-bl-4xl">
+                    class="relative group overflow-hidden shadow-md hover:shadow-xl transition duration-300 hover:scale-105 h-full min-h-[150px] bg-white rounded-tr-4xl rounded-bl-4xl flex flex-col justify-center items-center">
                     <div class="flex justify-between items-center p-5">
                         <div class="flex flex-col gap-3">
 
@@ -85,10 +85,10 @@
                             class="w-1/4 h-20 object-cover">
                     </div>
 
-                    <a href="{{ route('content-creation') }}"
+                    <a href="{{ route('e-commerce') }}"
                         class="absolute inset-0 bg-black flex items-center justify-center transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 opacity-90 w-full h-full">
-                        <div class="flex flex-col gap-3 w-3/4 text-center">
-                            <h2 class="text-lg md:text-xl font-bold text-[#E91E63] animate-pulse">E-Commerce
+                        <div class="flex flex-col w-3/4 text-center">
+                            <h2 class="text-lg font-bold text-[#E91E63] animate-pulse">E-Commerce
                                 Website Design
                             </h2>
                             <p class="text-xs md:text-sm text-gray-300"> eCommerce web design solutions take your online
@@ -100,7 +100,7 @@
 
                 <!-- Type-4 -->
                 <div
-                    class="relative group overflow-hidden shadow-md hover:shadow-xl transition duration-300 hover:scale-105 h-full min-h-[180px] bg-white rounded-tr-4xl rounded-bl-4xl">
+                    class="relative group overflow-hidden shadow-md hover:shadow-xl transition duration-300 hover:scale-105 h-full min-h-[150px]  bg-white rounded-tr-4xl rounded-bl-4xl flex flex-col justify-center items-center">
                     <div class="flex justify-between items-center p-3">
                         <div class="flex flex-col gap-3">
                             {{-- <p class="text-xs md:text-sm lg:text-base uppercase text-gray-600">back link creation
@@ -113,10 +113,10 @@
                             class="w-1/4 h-20 object-cover">
                     </div>
 
-                    <a href="{{ route('email-marketing') }}"
+                    <a href="{{ route('website-hosting') }}"
                         class="absolute inset-0 bg-black flex items-center justify-center transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 opacity-90 w-full h-full">
-                        <div class="flex flex-col gap-3 w-3/4 text-center">
-                            <h2 class="text-lg md:text-xl font-bold text-[#E91E63] animate-pulse">Web Hosting</h2>
+                        <div class="flex flex-col w-3/4 text-center">
+                            <h2 class="text-lg font-bold text-[#E91E63] animate-pulse">Web Hosting</h2>
                             <p class="text-xs md:text-sm text-gray-300">
                                 Website hosting services enable you to host your website with round-the-clock uptime
                                 that maximizes your online performance.

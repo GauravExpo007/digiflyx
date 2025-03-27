@@ -14,8 +14,7 @@
                 audience. Digitalfyx provides the resources to help you elevate your business, from lead generation
                 through brand building.
             </p>
-
-            <a
+            <a href="{{ route('contact-us') }}"
                 class="bg-gradient-to-r from-[#B454E2] via-[#E4715B] to-[#B454E2] bg-[length:200%_auto] hover:bg-[position:right_center] text-white text-center transition-all duration-700 ease-in-out rounded-lg px-5 py-2 text-base md:text-lg shadow-lg hover:shadow-2xl w-fit animate-right">
                 Get In Touch
             </a>
@@ -24,7 +23,7 @@
             <section class="grid grid-cols-1 sm:grid-cols-2 gap-5 p-3 md:p-6 justify-center items-center">
                 <!-- Type-1 -->
                 <div
-                    class="relative group overflow-hidden shadow-md hover:shadow-xl transition duration-300 hover:scale-105 h-full min-h-[180px] bg-white  rounded-tr-4xl rounded-bl-4xl">
+                    class="relative group overflow-hidden shadow-md hover:shadow-xl transition duration-300 hover:scale-105 h-full min-h-[150px] bg-white  rounded-tr-4xl rounded-bl-4xl flex flex-col justify-center items-center">
                     <div class="flex justify-between items-center p-5 ">
                         <div class="flex flex-col gap-3">
                             <p class="text-xs md:text-sm lg:text-base uppercase text-gray-600">Social Media Management
@@ -38,8 +37,8 @@
 
                     <a href="{{ route('social-media-management') }}"
                         class="absolute inset-0 bg-black flex items-center justify-center transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 opacity-90 w-full h-full">
-                        <div class="flex flex-col gap-3 w-3/4 text-center">
-                            <h2 class="text-lg md:text-xl font-bold text-[#E91E63] animate-pulse">Social Media
+                        <div class="flex flex-col w-3/4 text-center">
+                            <h2 class="text-lg font-bold text-[#E91E63] animate-pulse">Social Media
                                 Management
                             </h2>
                             <p class="text-xs md:text-sm text-gray-300">Social media management solutions allow you to
@@ -50,7 +49,7 @@
 
                 <!-- Type-2 -->
                 <div
-                    class="relative group overflow-hidden shadow-md hover:shadow-xl transition duration-300 hover:scale-105 h-full min-h-[180px] bg-white rounded-tr-4xl rounded-bl-4xl">
+                    class="relative group overflow-hidden shadow-md hover:shadow-xl transition duration-300 hover:scale-105 h-full min-h-[150px] bg-white rounded-tr-4xl rounded-bl-4xl flex flex-col justify-center items-center">
                     <div class="flex justify-between items-center p-5">
                         <div class="flex flex-col gap-3">
                             <p class="text-xs md:text-sm lg:text-base uppercase text-gray-600">Social Media Advertising
@@ -64,8 +63,8 @@
 
                     <a href="{{ route('social-media-advertising') }}"
                         class="absolute inset-0 bg-black flex items-center justify-center transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 opacity-90 w-full h-full">
-                        <div class="flex flex-col gap-3 w-3/4 text-center">
-                            <h2 class="text-lg md:text-xl font-bold text-[#E91E63] animate-pulse">Social Media
+                        <div class="flex flex-col w-3/4 text-center">
+                            <h2 class="text-lg font-bold text-[#E91E63] animate-pulse">Social Media
                                 Advertising</h2>
                             <p class="text-xs md:text-sm text-gray-300">
                                 Social media advertising solutions put your brand in the spotlight, drive conversion,
@@ -77,7 +76,7 @@
 
                 <!-- Type-3 -->
                 <div
-                    class="relative group overflow-hidden shadow-md hover:shadow-xl transition duration-300 hover:scale-105 h-full min-h-[180px] bg-white rounded-tr-4xl rounded-bl-4xl">
+                    class="relative group overflow-hidden shadow-md hover:shadow-xl transition duration-300 hover:scale-105 h-full min-h-[150px] bg-white rounded-tr-4xl rounded-bl-4xl flex flex-col justify-center items-center">
                     <div class="flex justify-between items-center p-5">
                         <div class="flex flex-col gap-3">
                             <p class="text-xs md:text-sm lg:text-base uppercase text-gray-600">Social Media Brand
@@ -91,8 +90,8 @@
 
                     <a href="{{ route('brand-management') }}"
                         class="absolute inset-0 bg-black flex items-center justify-center transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 opacity-90 w-full h-full">
-                        <div class="flex flex-col gap-3 w-3/4 text-center">
-                            <h2 class="text-lg md:text-xl font-bold text-[#E91E63] animate-pulse">Social Media Brand
+                        <div class="flex flex-col w-3/4 text-center">
+                            <h2 class="text-lg font-bold text-[#E91E63] animate-pulse">Social Media Brand
                                 Management
                             </h2>
                             <p class="text-xs md:text-sm text-gray-300"> Social media brand management services enable

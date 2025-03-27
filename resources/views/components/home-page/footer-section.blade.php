@@ -10,44 +10,42 @@
                 call.
             </p>
             <ul class="flex flex-col gap-4 text-slate-200">
-
                 <li>
-                    <i class="fa fa-map-marker text-[#54547A] pr-3"></i>
+                    <i class="fa fa-map-marker text-[#68FBF6] pr-3"></i>
 
                     401, Ryland St. Ste 200-A Reno NV 89502, USA
 
                 </li>
                 <li>
-                    <i class="fa fa-envelope text-[#54547A] pr-3"></i>
-                    <a href="mailto:info@digitalfyx.com" target="_blank" class="hover:text-[#ababcc]">
+                    <i class="fa fa-envelope text-[#68FBF6] pr-3"></i>
+                    <a href="mailto:info@digitalfyx.com" target="_blank" class="hover:text-[#68FBF6]">
                         info@digitalfyx.com
                     </a>
                 </li>
                 <li>
-                    <i class="fa fa-phone text-[#54547A] pr-3"></i>
-                    <a href="tel:+17026050607" class="hover:text-[#ababcc]">+1(702) 605-0607</a>
+                    <i class="fa fa-phone text-[#68FBF6] pr-3"></i>
+                    <a href="tel:+17026050607" class="hover:text-[#68FBF6]">+1(702) 605-0607</a>
                 </li>
                 <li class="flex gap-3 pt-5 mx-auto lg:mx-0">
                     <a href="https://www.facebook.com/digitalfyx" target="_blank" rel="noopener noreferrer">
                         <i
-                            class="fa-brands fa-facebook rounded-full border-2 border-[#54547A] p-3 bg-[#54547A] hover:bg-white hover:text-[#54547A] duration-300"></i>
+                            class="fa-brands fa-facebook rounded-full border-2 border-[#68FBF6] p-3 bg-black hover:bg-white hover:text-[#68FBF6] duration-300"></i>
                     </a>
                     <a href="https://x.com/i/flow/login?redirect_after_login=%2FDigital_fyx%2F" target="_blank"
                         rel="noopener noreferrer">
                         <i
-                            class="fa-brands fa-twitter rounded-full border-2 border-[#54547A] p-3 bg-[#54547A] hover:bg-white hover:text-[#54547A] duration-300"></i>
+                            class="fa-brands fa-twitter rounded-full border-2 border-[#68FBF6] p-3 bg-black hover:bg-white hover:text-[#68FBF6] duration-300"></i>
                     </a>
                     <a href="https://www.instagram.com/digi_talfyx/" target="_blank" rel="noopener noreferrer">
                         <i
-                            class="fa-brands fa-instagram rounded-full border-2 border-[#54547A] p-3 bg-[#54547A] hover:bg-white hover:text-[#54547A] duration-300"></i>
+                            class="fa-brands fa-instagram rounded-full border-2 border-[#68FBF6] p-3 bg-black hover:bg-white hover:text-[#68FBF6] duration-300"></i>
                     </a>
 
                     <a href="https://www.linkedin.com/company/digitalfyxx" target="_blank" rel="noopener noreferrer">
                         <i
-                            class="fa-brands fa-linkedin rounded-full border-2 border-[#54547A] p-3 bg-[#54547A] hover:bg-white hover:text-[#54547A] duration-300"></i>
+                            class="fa-brands fa-linkedin rounded-full border-2 border-[#68FBF6] p-3 bg-black hover:bg-white hover:text-[#68FBF6] duration-300"></i>
                     </a>
                 </li>
-
             </ul>
         </section>
 
@@ -55,10 +53,10 @@
         <section class="flex flex-col gap-6 items-center md:items-start">
             <h2 class="uppercase font-bold text-2xl md:text-3xl text-center md:text-left">Company</h2>
             <ul class="flex flex-col items-center md:items-start gap-4 text-slate-200 mx-auto">
-                <li><a href="/" class="hover:text-[#ababcc]">Home</a></li>
-                <li><a href="{{ route('about-us') }}" class="hover:text-[#ababcc]">About Us</a></li>
-                <li><a href="{{ route('blogs') }}" class="hover:text-[#ababcc]">Blogs</a></li>
-                <li><a href="{{ route('contact-us') }}" class="hover:text-[#ababcc]">Contact Us</a></li>
+                <li><a href="/" class="hover:text-[#68FBF6]">Home</a></li>
+                <li><a href="{{ route('about-us') }}" class="hover:text-[#68FBF6]">About Us</a></li>
+                <li><a href="{{ route('blogs') }}" class="hover:text-[#68FBF6]">Blogs</a></li>
+                <li><a href="{{ route('contact-us') }}" class="hover:text-[#68FBF6]">Contact Us</a></li>
             </ul>
         </section>
 
@@ -66,10 +64,10 @@
         <section class="flex flex-col gap-6 items-center md:items-start">
             <h2 class="uppercase font-bold text-2xl md:text-3xl text-center md:text-left">Services</h2>
             <ul class="flex flex-col items-center md:items-start gap-4 text-slate-200 mx-auto">
-                <li><a href="{{ route('digital-marketing') }}" class="hover:text-[#ababcc]">Digital Marketing</a></li>
-                <li><a href="{{ route('web-design') }}" class="hover:text-[#ababcc]">Web Design</a></li>
-                <li><a href="{{ route('social-media') }}" class="hover:text-[#ababcc]">Social Media</a></li>
-                <li><a href="{{ route('e-commerce') }}" class="hover:text-[#ababcc]">E-Commerce</a></li>
+                <li><a href="{{ route('digital-marketing') }}" class="hover:text-[#68FBF6]">Digital Marketing</a></li>
+                <li><a href="{{ route('web-design') }}" class="hover:text-[#68FBF6]">Web Design</a></li>
+                <li><a href="{{ route('social-media') }}" class="hover:text-[#68FBF6]">Social Media</a></li>
+                <li><a href="{{ route('e-commerce') }}" class="hover:text-[#68FBF6]">E-Commerce</a></li>
             </ul>
         </section>
 
@@ -90,7 +88,7 @@
             <span>
                 Copyright © <span id="year"></span> by
                 <a href="https://digitalfyx.com/" target="_blank" rel="noopener noreferrer"
-                    class="hover:text-[#ababcc]">Digitalfyx</a>. All Rights Reserved.
+                    class="hover:text-[#68FBF6]">Digitalfyx</a>. All Rights Reserved.
             </span>
         </div>
     </div>

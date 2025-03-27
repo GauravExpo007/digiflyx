@@ -1,12 +1,11 @@
-<div class="text-white w-full min-h-[600px] lg:h-auto flex flex-col lg:flex-row justify-center items-center bg-center md:bg-right"
-    style="background-image: url('/assets/bg/bg-glass.webp')">
+<div id="vanta-bg"
+    class="text-white w-full overflow-x-hidden min-h-[600px] lg:h-auto flex flex-col lg:flex-row justify-center items-center bg-center md:bg-right">
     <section
-        class="max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col gap-5 md:gap-10 w-full lg:w-2/5 animate-slide-in-left object-center bg-no-repeat bg-fixed"
-        style="background-image: url('/assets/bg/shape-d.png'); background-attachment: fixed; background-position: center;">
+        class="max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col gap-5 md:gap-10 w-full lg:w-2/5 animate-slide-in-left object-center bg-no-repeat bg-fixed">
         <h1
             class="font-semibold text-2xl md:text-3xl lg:text-4xl mt-[5%] mx-auto drop-shadow-lg md:tracking-wider [text-shadow:2px_2px_#ff0000]">
             Experience Unparalleled Digital <span class="border-b-2 text-[#38FFF9]">Success</span> with
-            <span class="text-[#E91E63] animate-pulse">Digitalfyx</span>
+            <span class="text-[#38FFF9] animate-pulse">Digitalfyx</span>
         </h1>
 
         <div class="py-5 text-lg md:text-xl lg:text-2xl w-full flex flex-col">
@@ -19,8 +18,7 @@
     </section>
 
 
-    <section
-        class="max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col gap-5 md:gap-10 w-full lg:w-3/5 animate-slide-in-right">
+    <section class="max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col gap-5 md:gap-10 w-full lg:w-3/5 animate-slide-in-right">
         <div class="pb-10">
             <div class="flex flex-col md:flex-row justify-center items-center gap-5">
                 <a href="https://www.youtube.com/" target="_blank">

@@ -40,7 +40,8 @@
                             <a href="#">
                                 <h2
                                     class="text-xl md:text-2xl lg:text-4xl hover:underline font-bold text-[#E91E63] animate-pulse">
-                                    Expo Stand Germany</h2>
+                                    Expo Stand Germany
+                                </h2>
                             </a>
                         </div>
                     </div>

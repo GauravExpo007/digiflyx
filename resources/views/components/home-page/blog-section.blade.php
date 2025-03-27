@@ -3,7 +3,8 @@
     <div class="relative w-full">
         <!-- Slider Container -->
 
-        <div class="flex space-x-6 overflow-x-auto scroll-smooth snap-x snap-mandatory scrollbar-hide" id="blogSlider">
+        <div class="flex space-x-6 overflow-x-auto scroll-smooth snap-x snap-mandatory scrollbar-hide lg:max-w-[77%] mx-auto"
+            id="blogSlider">
             {{-- Blog-1 --}}
             <div
                 class="min-w-[300px] snap-center bg-gradient-to-r from-[#2EFDE1] to-[#75AAF8] p-4 rounded-xl shadow-lg animate-slide-in-right">
@@ -83,11 +84,11 @@
         </div>
         <!-- Navigation Buttons -->
         <button id="prev"
-            class="absolute left-0 top-3/4 transform -translate-y-1/2 bg-gray-900 text-white p-3 rounded-full shadow-lg">
+            class="absolute left-0 md:left-20 top-1/2 transform -translate-y-1/2 bg-gray-900 text-white p-3 rounded-full shadow-lg">
             ‹
         </button>
         <button id="next"
-            class="absolute right-0 top-3/4 transform -translate-y-1/2 bg-gray-900 text-white p-3 rounded-full shadow-lg">
+            class="absolute right-0 md:right-20 top-1/2 transform -translate-y-1/2 bg-gray-900 text-white p-3 rounded-full shadow-lg">
             ›
         </button>
     </div>

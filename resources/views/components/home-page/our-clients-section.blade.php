@@ -19,7 +19,7 @@
 
             <div class="h-36 flex flex-col justify-between items-center p-2 hover:scale-95 duration-300 group">
                 <img src="{{ asset('assets/clients/MESSEMASTER-PNG.png') }}" alt="messemaster" class=" h-20 " />
-                <p class="text-black animate-pulse text-center text-base">
+                <p class="text-black text-center text-base">
                     MESSEMASTER
                 </p>
             </div>
@@ -28,7 +28,7 @@
 
             <div class="h-36 flex flex-col justify-between items-center p-2 hover:scale-95 duration-300 group">
                 <img src="{{ asset('assets/clients/SHIP-SEA-PNG.png') }}" alt="ship-sea logistic" class=" h-20 " />
-                <p class="text-black animate-pulse text-center text-base">
+                <p class="text-black text-center text-base">
                     SHIP SEA LOGISTIC
                 </p>
             </div>
@@ -37,7 +37,7 @@
 
             <div class="h-36 flex flex-col justify-between items-center p-2 hover:scale-95 duration-300 group">
                 <img src="{{ asset('assets/clients/TARDE-PROS-PNG.png') }}" alt="treade-pros" class=" h-20 " />
-                <p class="text-black animate-pulse text-center text-base">
+                <p class="text-black text-center text-base">
                     TRADE PROS
                 </p>
             </div>
@@ -46,7 +46,7 @@
 
             <div class="h-36 flex flex-col justify-between items-center p-2 hover:scale-95 duration-300 group">
                 <img src="{{ asset('assets/clients/expo-stand.png') }}" alt="expostand services" class=" h-20 " />
-                <p class="text-black animate-pulse text-center text-base">
+                <p class="text-black text-center text-base">
                     EXPO-STAND
                 </p>
             </div>
@@ -55,7 +55,7 @@
 
             <div class="h-36 flex flex-col justify-between items-center p-2 hover:scale-95 duration-300 group">
                 <img src="{{ asset('assets/clients/CANADIAN-PNG.png') }}" alt="canadian express" class=" h-20 " />
-                <p class="text-black animate-pulse text-center text-base">
+                <p class="text-black text-center text-base">
                     CANADIAN-EXPRESS
                 </p>
             </div>
@@ -64,7 +64,7 @@
 
             <div class="h-36 flex flex-col justify-between items-center p-2 hover:scale-95 duration-300 group">
                 <img src="{{ asset('assets/clients/xproo-service.webp') }}" alt="xproos" class=" h-20 " />
-                <p class="text-black animate-pulse text-center text-base">
+                <p class="text-black text-center text-base">
                     XPROOS
                 </p>
             </div>
@@ -73,7 +73,7 @@
 
             <div class="h-36 flex flex-col justify-between items-center p-2 hover:scale-95 duration-300 group">
                 <img src="{{ asset('assets/clients/Booth_Vision.png') }}" alt="boothvision" class=" h-20 " />
-                <p class="text-black animate-pulse text-center text-base">
+                <p class="text-black text-center text-base">
                     BOOTH VISION
                 </p>
             </div>
@@ -83,7 +83,7 @@
             <div class="h-36 flex flex-col justify-between items-center p-2 hover:scale-95 duration-300 group">
                 <img src="{{ asset('assets/clients/stand-construction.png') }}" alt="stand-construction"
                     class=" h-20 " />
-                <p class="text-black animate-pulse text-center text-base">
+                <p class="text-black text-center text-base">
                     STAND-CONST.
                 </p>
             </div>
@@ -92,7 +92,7 @@
 
             <div class="h-36 flex flex-col justify-between items-center p-2 hover:scale-95 duration-300 group">
                 <img src="{{ asset('assets/clients/my-india-home.png') }}" alt="my-india-home" class=" h-20 " />
-                <p class="text-black animate-pulse text-center text-base">
+                <p class="text-black text-center text-base">
                     MY INDIA HOME
                 </p>
             </div>
@@ -101,7 +101,7 @@
 
             <div class="h-36 flex flex-col justify-between items-center p-2 hover:scale-95 duration-300 group">
                 <img src="{{ asset('assets/clients/expoexhibit.png') }}" alt="expoexhibit" class=" h-20 " />
-                <p class="text-black animate-pulse text-center text-base">
+                <p class="text-black text-center text-base">
                     EXPO-EXHIBIT
                 </p>
             </div>
@@ -110,7 +110,7 @@
 
             <div class="h-36 flex flex-col justify-between items-center p-2 hover:scale-95 duration-300 group">
                 <img src="{{ asset('assets/clients/nexus-gmbh-biz.gif') }}" alt="nexus" class=" h-20 " />
-                <p class="text-black animate-pulse text-center text-base">
+                <p class="text-black text-center text-base">
                     NEXUS
                 </p>
             </div>
@@ -119,7 +119,7 @@
 
             <div class="h-36 flex flex-col justify-between items-center p-2 hover:scale-95 duration-300 group">
                 <img src="{{ asset('assets/icons/icon-12.png') }}" alt="plan my booth" class="h-20  animate-pulse" />
-                <p class="text-black animate-pulse text-center text-base">
+                <p class="text-black text-center text-base">
                     PLAN MY BOOTH
                 </p>
             </div>

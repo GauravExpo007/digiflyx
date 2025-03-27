@@ -1,9 +1,9 @@
 <section class="py-10 text-center">
-    <div class="flex flex-col gap-5 p-5 md:p-10 text-left">
+    <div class="flex flex-col gap-5 p-5 md:p-10">
         <h2 class="bg-gradient-to-r from-[#340446] to-[#f31054] bg-clip-text text-transparent text-lg md:text-xl">
             OUR SEO SERVICES
         </h2>
-        <h3 class=" md:w-[90%] text-3xl md:text-4xl font-semibold text-left">
+        <h3 class="text-3xl md:text-4xl font-semibold">
             All-In-One Result-Oriented <span class="text-[#E91E63] animate-pulse">Search Engine Optimization</span>
             Package
         </h3>
@@ -11,7 +11,7 @@
 
     <div class="relative w-full">
         <!-- Slider Container -->
-        <div class="flex space-x-6 overflow-x-auto scroll-smooth snap-x snap-mandatory scrollbar-hide"
+        <div class="flex space-x-6 overflow-x-auto scroll-smooth snap-x snap-mandatory scrollbar-hide lg:max-w-[77%] mx-auto"
             id="seoServiceSlider">
             <!-- Service 1 -->
             <div class="min-w-[300px] snap-center bg-gradient-to-r from-[#2EFDE1] to-[#75AAF8] p-4 rounded-xl shadow-lg">

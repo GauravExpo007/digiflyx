@@ -15,7 +15,7 @@
                 forefront of the digital landscape.
             </p>
 
-            <a
+            <a href="{{ route('contact-us') }}"
                 class="bg-gradient-to-r from-[#B454E2] via-[#E4715B] to-[#B454E2] bg-[length:200%_auto] hover:bg-[position:right_center] text-white text-center transition-all duration-700 ease-in-out rounded-lg px-5 py-2 text-base md:text-lg shadow-lg hover:shadow-2xl w-fit animate-right">
                 Get In Touch
             </a>
@@ -24,7 +24,7 @@
             <section class="grid grid-cols-1 sm:grid-cols-2 gap-5 p-3 md:p-6 justify-center items-center">
                 <!-- Type-1 -->
                 <div
-                    class="relative group overflow-hidden shadow-md hover:shadow-xl transition duration-300 hover:scale-105 h-full min-h-[150px] bg-white  rounded-tr-4xl rounded-bl-4xl">
+                    class="relative group overflow-hidden shadow-md hover:shadow-xl transition duration-300 hover:scale-105 h-full min-h-[150px] bg-white  rounded-tr-4xl rounded-bl-4xl flex flex-col justify-center items-center">
                     <div class="flex justify-between items-center p-5 ">
                         <div class="flex flex-col gap-3">
                             <p class="text-xs md:text-sm lg:text-base uppercase text-gray-600">Search engine
@@ -39,8 +39,8 @@
 
                     <a href="{{ route('seo') }}"
                         class="absolute inset-0 bg-black flex items-center justify-center transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 opacity-90 w-full h-full">
-                        <div class="flex flex-col gap-3 w-3/4 text-center">
-                            <h2 class="text-lg md:text-xl font-bold text-[#E91E63] animate-pulse">SEO</h2>
+                        <div class="flex flex-col w-3/4 text-center">
+                            <h2 class="text-lg font-bold text-[#E91E63] animate-pulse">SEO</h2>
                             <p class="text-xs md:text-sm text-gray-300">Stay always on the top of Google Search and
                                 other Search Engine rankings with our results-driven SEO solution.</p>
                         </div>
@@ -49,8 +49,8 @@
 
                 <!-- Type-2 -->
                 <div
-                    class="relative group overflow-hidden shadow-md hover:shadow-xl transition duration-300 hover:scale-105 h-full min-h-[150px] bg-white rounded-tr-4xl rounded-bl-4xl">
-                    <div class="flex justify-between items-center p-3">
+                    class="relative group overflow-hidden shadow-md hover:shadow-xl transition duration-300 hover:scale-105 h-full min-h-[150px] bg-white rounded-tr-4xl rounded-bl-4xl flex flex-col justify-center items-center">
+                    <div class="flex justify-between items-center">
                         <div class="flex flex-col gap-3">
                             <p class="text-xs md:text-sm lg:text-base uppercase text-gray-600">Pay Per Click</p>
                             <h2 class="text-lg md:text-xl lg:text-2xl font-bold text-[#E91E63] animate-pulse">PPC
@@ -62,8 +62,8 @@
 
                     <a href="{{ route('ppc') }}"
                         class="absolute inset-0 bg-black flex items-center justify-center transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 opacity-90 w-full h-full">
-                        <div class="flex flex-col gap-3 w-3/4 text-center">
-                            <h2 class="text-lg md:text-xl font-bold text-[#E91E63] animate-pulse">PPC</h2>
+                        <div class="flex flex-col w-3/4 text-center">
+                            <h2 class="text-lg font-bold text-[#E91E63] animate-pulse">PPC</h2>
                             <p class="text-xs md:text-sm text-gray-300">
                                 PPC helps businesses maximize their ROI, conversion rate, and profitability.
                             </p>
@@ -73,7 +73,7 @@
 
                 <!-- Type-3 -->
                 <div
-                    class="relative group overflow-hidden shadow-md hover:shadow-xl transition duration-300 hover:scale-105 h-full min-h-[150px] bg-white rounded-tr-4xl rounded-bl-4xl">
+                    class="relative group overflow-hidden shadow-md hover:shadow-xl transition duration-300 hover:scale-105 h-full min-h-[150px] bg-white rounded-tr-4xl rounded-bl-4xl flex flex-col justify-center items-center">
                     <div class="flex justify-between items-center p-5">
                         <div class="flex flex-col gap-3">
                             {{-- <p class="text-xs md:text-sm lg:text-base uppercase text-gray-600">E-Commerce search engine
@@ -88,8 +88,8 @@
 
                     <a href="{{ route('content-creation') }}"
                         class="absolute inset-0 bg-black flex items-center justify-center transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 opacity-90 w-full h-full">
-                        <div class="flex flex-col gap-3 w-3/4 text-center">
-                            <h2 class="text-lg md:text-xl font-bold text-[#E91E63] animate-pulse">Content Creation
+                        <div class="flex flex-col w-3/4 text-center">
+                            <h2 class="text-lg font-bold text-[#E91E63] animate-pulse">Content Creation
                             </h2>
                             <p class="text-xs md:text-sm text-gray-300">Content creation services enable your audience
                                 to connect with you and hear your narrative.</p>
@@ -99,8 +99,8 @@
 
                 <!-- Type-4 -->
                 <div
-                    class="relative group overflow-hidden shadow-md hover:shadow-xl transition duration-300 hover:scale-105 h-full min-h-[150px] bg-white rounded-tr-4xl rounded-bl-4xl">
-                    <div class="flex justify-between items-center p-3">
+                    class="relative group overflow-hidden shadow-md hover:shadow-xl transition duration-300 hover:scale-105 h-full min-h-[150px] bg-white rounded-tr-4xl rounded-bl-4xl flex flex-col justify-center items-center">
+                    <div class="flex justify-between items-center gap-10">
                         <div class="flex flex-col gap-3">
                             {{-- <p class="text-xs md:text-sm lg:text-base uppercase text-gray-600">back link creation
                                 service</p> --}}
@@ -110,13 +110,13 @@
                             </h2>
                         </div>
                         <img src="{{ asset('assets/seo/link-building-service.webp') }}" alt="Local SEO"
-                            class="w-1/4 h-20 object-cover">
+                            class="w-1/3 h-20 object-cover">
                     </div>
 
                     <a href="{{ route('email-marketing') }}"
                         class="absolute inset-0 bg-black flex items-center justify-center transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 opacity-90 w-full h-full">
-                        <div class="flex flex-col gap-3 w-3/4 text-center">
-                            <h2 class="text-lg md:text-xl font-bold text-[#E91E63] animate-pulse">Email Marketing</h2>
+                        <div class="flex flex-col w-3/4 text-center">
+                            <h2 class="text-lg font-bold text-[#E91E63] animate-pulse">Email Marketing</h2>
                             <p class="text-xs md:text-sm text-gray-300">
                                 An email marketing campaign is the best tool to build stronger relationships with your
                                 customers and generate quality leads.
